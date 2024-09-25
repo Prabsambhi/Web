@@ -1,0 +1,61 @@
+p {
+    color: blue;
+  }
+
+  .form-details {
+    border-width: 5px;
+  }
+
+  .list-styling {
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+    margin: 30px 20px 30px 20px;
+    border: 6px solid rgb(116, 175, 175); 
+  }
+
+  #form-styling {
+    color: brown;
+  }
+
+  .shoe-image {
+    position: relative;
+  }
+
+  * {
+    /* margin: 10px; */
+  }
+
+  .parent-div {
+    position: relative;
+    background-color: blueviolet;
+    display: flex; 
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 75%; 
+    height: 100px;
+  }
+
+  .child-div {
+    background-color: bisque;
+    padding: 4px;
+    width: 50px;
+  }
+
+
+  .child-div1 {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: bisque;
+    padding: 4px;
+    width: 50px;
+    /* opacity: 30; */
+  }
+
+
+  .footer-style {
+    position: absolute;
+    z-index: 1;
+  }

@@ -3,26 +3,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
+
+    <link rel="stylesheet" href="styles.css"/> <!-- Connecting with styles.css file -->
+
+    </head>
+
   <body>
     <header>
-      <h1>Main Heading</h1>
+      <h1 style="color: red; text-decoration: underline">Main Heading</h1>
+      <!-- Inline Css -->
     </header>
 
-    <main>
+    <main class="main-style">
       <p>This is a paragraph</p>
       <a
         href="https://www.amazon.in/?tag=msndeskstdin-21&ref=pd_sl_6nurfs224p_e&adgrpid=1320515122347239&hvadid=82532458991604&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=148996&hvtargid=kwd-82533124255631:loc-90&hydadcr=14453_2334184&msclkid=4898f34de8831eb4ca5195bcb4183ea2"
       >
         Amazon
       </a>
+      
       <img
         src="https://m.media-amazon.com/images/I/71f4sJIqweL._SY695_.jpg"
         alt="Black boots"
         style="width: 200px"
+        class="shoe-image"
       />
       <ol>
-        <li>Item 1</li>
+        <li class="list-styling">Item 1</li>
         <li>Item 2</li>
       </ol>
 
@@ -41,17 +48,30 @@
         </tr>
       </table>
 
-      <form>
+      <form id="form-styling">
         <label>Name</label>
         <input type="text" id="name" class="form-details" required />
         <label>Message</label>
         <textarea id="message" class="form-details" required></textarea>
         <button type="submit">Submit</button>
       </form>
+
+      <div class="parent-div">
+        <div class="child-div1">1</div>
+        <div class="child-div">2</div>
+        <div class="child-div">3</div>
+        <div class="child-div">4</div>
+        <!-- <img
+        src="https://m.media-amazon.com/images/I/71f4sJIqweL._SY695_.jpg"
+        alt="Black boots"
+        style="width: 200px"
+      /> -->
+      </div>
+
     </main>
 
     <footer>
-      <p>&copy; 2024, MERN stack</p>
+      <p class="footer-style">&copy; 2024, MERN stack</p>
     </footer>
   </body>
 </html>

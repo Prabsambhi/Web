@@ -2,3 +2,29 @@ What is HTML?
 
 Its a markup language used to  create a structure for out web page
 
+semantic tags provides a meaning to our content
+
+<header>
+</header>
+
+<footer>
+</footer>
+
+<section>
+</section>
+
+
+CSS
+
+Box model
+
+-> content
+-> Padding
+-> Margin
+-> Borders
+
+
+Block elements and inline elements
+
+->Block element takes full width of our page (Ex: <p>, <li>)
+->Inline elements does not take full width, it only that much which is the width of our content (Ex <span> <img>)
