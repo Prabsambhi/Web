@@ -4,74 +4,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="styles.css"/> <!-- Connecting with styles.css file -->
-
-    </head>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Connecting with styles.css file -->
+  </head>
 
   <body>
-    <header>
-      <h1 style="color: red; text-decoration: underline">Main Heading</h1>
-      <!-- Inline Css -->
+    <header class="navbar">
+      <div class="nav-item1">JACOB.</div>
+      <!-- Logo -->
+      <div class="container">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Contact Us</div>
+        <div class="nav-item">Portfolio</div>
+      </div>
     </header>
 
-    <main class="main-style">
-      <p>This is a paragraph</p>
-      <a
-        href="https://www.amazon.in/?tag=msndeskstdin-21&ref=pd_sl_6nurfs224p_e&adgrpid=1320515122347239&hvadid=82532458991604&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=148996&hvtargid=kwd-82533124255631:loc-90&hydadcr=14453_2334184&msclkid=4898f34de8831eb4ca5195bcb4183ea2"
-      >
-        Amazon
-      </a>
-      
-      <img
-        src="https://m.media-amazon.com/images/I/71f4sJIqweL._SY695_.jpg"
-        alt="Black boots"
-        style="width: 200px"
-        class="shoe-image"
-      />
-      <ol>
-        <li class="list-styling">Item 1</li>
-        <li>Item 2</li>
-      </ol>
-
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Ryan</td>
-          <td>30</td>
-        </tr>
-        <tr>
-          <td>Peter</td>
-          <td>40</td>
-        </tr>
-      </table>
-
-      <form id="form-styling">
-        <label>Name</label>
-        <input type="text" id="name" class="form-details" required />
-        <label>Message</label>
-        <textarea id="message" class="form-details" required></textarea>
-        <button type="submit">Submit</button>
-      </form>
-
-      <div class="parent-div">
-        <div class="child-div1">1</div>
-        <div class="child-div">2</div>
-        <div class="child-div">3</div>
-        <div class="child-div">4</div>
-        <!-- <img
-        src="https://m.media-amazon.com/images/I/71f4sJIqweL._SY695_.jpg"
-        alt="Black boots"
-        style="width: 200px"
-      /> -->
+    <main class="content">
+      <div class="left-div">
+        <!-- Left Div -->
+        <h1>Hi, I'm Jacob</h1>
+        <h2>Frontend Developer</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          consectetur eius tenetur suscipit quasi officia libero atque nemo modi
+          labore sapiente, tempore vero aut fugit provident repellendus velit
+          voluptates alias.
+        </p>
+        <div class="buttons">
+          <button class="btn-1">Hire me</button>
+          <button class="btn-2">Let's talk</button>
+        </div>
       </div>
 
+      <div class="right-div">
+        <!-- Right Div -->
+        <img src="person.png" class="person-img" />
+      </div>
     </main>
-
-    <footer>
-      <p class="footer-style">&copy; 2024, MERN stack</p>
-    </footer>
   </body>
 </html>
