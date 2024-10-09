@@ -1,0 +1,26 @@
+Variables: A container that stores some data
+
+var,let & const
+
+var -> Function scoped
+let -> Block scoped
+const -> Block scoped & It's a constant value
+
+type of variable  (name of variable) = Value
+var name = "Bob"
+
+
+- Data types 
+1. String, number, boolean, null, undefined (Primitive Data types)
+2. Objects & Arrays (Non-Primitive data types)
+
+- Operators 
+1. Arithmetic Operators ( + , - , * , / , % ,**)
+2. Assignment Operators (=, +=, -=, *=, %=)
+3. Comparison Operators ( == , === )
+4. Logical Operators (&& (AND), || (OR), !(NOT) )
+
+
+- Conditional statements (if, else if, else)
+- Loops (For, while, do while)
+- break & continue
