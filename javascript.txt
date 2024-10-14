@@ -24,3 +24,10 @@ var name = "Bob"
 - Conditional statements (if, else if, else)
 - Loops (For, while, do while)
 - break & continue
+
+- Function scoped vs block scoped
+- Arrays
+- Objects
+- Template literals
+- Spread operator
+- Pure & Impure Functions
