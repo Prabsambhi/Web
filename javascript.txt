@@ -31,3 +31,8 @@ var name = "Bob"
 - Template literals
 - Spread operator
 - Pure & Impure Functions
+
+- hoisting (Variable hoisting (var, let & const) & function hoisting (Function declaration, function expression))
+- Arrow Function
+- Destructuring
+- Asynchronous Javascript
