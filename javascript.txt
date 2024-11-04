@@ -36,3 +36,31 @@ var name = "Bob"
 - Arrow Function
 - Destructuring
 - Asynchronous Javascript
+
+- Callbacks
+
+Callbacks are a function that is passed in another function as an argument.
+It performs a specific task after an Asynchronous operation is completed.
+
+- Promises
+
+Promises is an object which represents if an Asynchronous task is completed or it is failed
+
+- then & catch
+It's a way to consume a promised & used to handle our Promise state
+ (if it is resolved the .then works if rejected then .catch works)
+
+- async/await
+
+It's also a way to consume the Promise 
+if promise is resolved we can do try otherwise incase of rejected we do to catch
+Await will pause the execusion of our code further till out promise is either resolved or rejected
+
+
+
+- Array traversal methods
+
+forEach, map, filter, reduce, find
+
+
+- DOM manipulation

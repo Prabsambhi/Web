@@ -28,3 +28,5 @@ Block elements and inline elements
 
 ->Block element takes full width of our page (Ex: <p>, <li>)
 ->Inline elements does not take full width, it only that much which is the width of our content (Ex <span> <img>)
+
+
